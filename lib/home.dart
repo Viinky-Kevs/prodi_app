@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'index.dart';
 
 class HomeScreen extends StatefulWidget{
 
@@ -25,11 +26,11 @@ class _HomeScreenState extends State<HomeScreen> {
       body: PageView(
         controller: pageController,
         children: [
-          Container(color: Colors.blueAccent),
+          Container(color: Colors.white, child: const IndexHome(),),
           Container(color: Colors.white),
-          Container(color: Colors.redAccent),
-          Container(color: Colors.yellow),
-          Container(color: Colors.green),
+          Container(color: Colors.white),
+          Container(color: Colors.white),
+          Container(color: Colors.white),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -41,8 +42,8 @@ class _HomeScreenState extends State<HomeScreen> {
             BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Iniciar sesión'),
           ],
         currentIndex: _selectedIndex,
-        unselectedItemColor: Colors.green,
-        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.lightBlueAccent,
+        selectedItemColor: Colors.black,
         onTap: onTapped,
       ),
     );
