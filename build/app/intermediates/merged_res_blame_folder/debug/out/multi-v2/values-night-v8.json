@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/kevin/Documentos/GitHub/pro_diplosis/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/kevin/Documentos/GitHub/prodi_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/kevin/Documentos/GitHub/pro_diplosis/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/kevin/Documentos/GitHub/prodi_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
