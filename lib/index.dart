@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:getwidget/getwidget.dart';
 
 class IndexHome extends StatefulWidget{
   const IndexHome({Key? key}) : super(key: key);
@@ -109,12 +110,12 @@ class _IndexHomeState extends State<IndexHome>{
               ),
               Container(
                 margin: const EdgeInsets.symmetric(vertical: 20.0),
-                height: 250,
+                height: 300,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: <Widget>[
                     Container(
-                      width: 360.0,
+                      width: 320.0,
                       child: Card(
                         child: Wrap(
                           children: <Widget>[
@@ -127,13 +128,26 @@ class _IndexHomeState extends State<IndexHome>{
                       ),
                     ),
                     Container(
-                      width: 360.0,
+                      width: 320.0,
                       child: Card(
                         child: Wrap(
                           children: <Widget>[
                             Image.asset('assets/images/Guido.jpg'),
                             const ListTile(
                               title: Text('phD Guido Plaza'),
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: 320.0,
+                      child: Card(
+                        child: Wrap(
+                          children: <Widget>[
+                            Image.asset('assets/images/Dario.jpeg'),
+                            const ListTile(
+                              title: Text('phD Darío Corredor'),
                             )
                           ],
                         ),
@@ -151,6 +165,31 @@ class _IndexHomeState extends State<IndexHome>{
                   color: Colors.lightGreen,
                 ),
               ),
+              const SizedBox(height: 20,),
+              Row(
+                children: [
+                  const SizedBox(width: 15,),
+                  GFButton(
+                    onPressed: (){},
+                    text: "Whats'App",
+                    icon: const Icon(Icons.whatsapp),
+                    type: GFButtonType.outline2x,
+                  ),
+                  const SizedBox(width: 30,),
+                  GFButton(
+                    onPressed: (){},
+                    text: "Facebook",
+                    icon: const Icon(Icons.facebook),
+                    type: GFButtonType.outline2x,
+                  ),
+                  const SizedBox(width: 30,),
+                  GFButton(
+                    onPressed: (){},
+                    text: "Email",
+                    icon: const Icon(Icons.mail),
+                    type: GFButtonType.outline2x,
+                  ),
+              ],)
             ],
           ),
         ),

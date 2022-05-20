@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
 
   google_maps_flutter: ^2.1.5
-
+  getwidget: ^2.0.5
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -36,3 +36,4 @@ flutter:
     - assets/images/image3.jpeg
     - assets/images/Guido.jpg
     - assets/images/joaquin.jpg
+    - assets/images/Dario.jpeg

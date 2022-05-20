@@ -92,6 +92,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "getwidget",
+      "rootUri": "file:///home/kevin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/getwidget-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///home/kevin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-2.3.3",
       "packageUri": "lib/",
@@ -105,7 +111,7 @@
     },
     {
       "name": "google_maps_flutter_platform_interface",
-      "rootUri": "file:///home/kevin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.5",
+      "rootUri": "file:///home/kevin/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -290,7 +296,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-05-19T20:06:17.628001Z",
+  "generated": "2022-05-20T16:24:24.563479Z",
   "generator": "pub",
   "generatorVersion": "2.16.2"
 }

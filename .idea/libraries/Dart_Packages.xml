@@ -107,6 +107,13 @@
             </list>
           </value>
         </entry>
+        <entry key="getwidget">
+          <value>
+            <list>
+              <option value="$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/getwidget-2.0.5/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="google_fonts">
           <value>
             <list>
@@ -124,7 +131,7 @@
         <entry key="google_maps_flutter_platform_interface">
           <value>
             <list>
-              <option value="$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.5/lib" />
+              <option value="$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.6/lib" />
             </list>
           </value>
         </entry>
@@ -347,9 +354,10 @@
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.2/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.6/lib" />
+      <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/getwidget-2.0.5/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_fonts-2.3.3/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-2.1.5/lib" />
-      <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.5/lib" />
+      <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter_platform_interface-2.1.6/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.1/lib" />
       <root url="file://$USER_HOME$/FlutterDev/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1/lib" />
