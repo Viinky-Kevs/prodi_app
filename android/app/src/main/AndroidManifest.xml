@@ -1,9 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pro_diplosis">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
         android:label="pro_diplosis"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyCzp0pIm7COwljA6-zsLqolyYI-7xDuGDQ"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

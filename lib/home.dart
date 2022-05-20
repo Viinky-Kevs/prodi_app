@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'index.dart';
+import 'maps.dart';
+import 'login_page.dart';
 
 class HomeScreen extends StatefulWidget{
 
@@ -22,15 +24,15 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Pro-Diplosis'),),
+      appBar: AppBar(title: const Text('Pro-Diplosis'),),
       body: PageView(
         controller: pageController,
         children: [
           Container(color: Colors.white, child: const IndexHome(),),
           Container(color: Colors.white),
           Container(color: Colors.white),
-          Container(color: Colors.white),
-          Container(color: Colors.white),
+          Container(color: Colors.white, child: MapSample(),),
+          Container(color: Colors.white, child: const LoginPage(),),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
