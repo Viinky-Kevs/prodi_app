@@ -1,4 +1,4 @@
-#Fri May 20 10:40:14 COT 2022
+#Fri May 20 17:00:26 COT 2022
 base.0=/home/kevin/Documentos/GitHub/prodi_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
