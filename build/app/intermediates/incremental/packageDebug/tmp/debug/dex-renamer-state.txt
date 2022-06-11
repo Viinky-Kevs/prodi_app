@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Fri May 20 17:00:26 COT 2022
 base.0=/home/kevin/Documentos/GitHub/prodi_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+=======
+#Fri Jun 10 13:43:18 COT 2022
+base.0=/home/biocompu/Documentos/GitHub/prodi_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+>>>>>>> ba8eb791afbb20622649b1278ea9616f4f876b67
 renamed.0=classes.dex
 path.0=classes.dex
