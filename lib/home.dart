@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'index.dart';
 import 'maps.dart';
 import 'login_page.dart';
+import 'form.dart';
 
 class HomeScreen extends StatefulWidget{
 
@@ -29,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
         controller: pageController,
         children: [
           Container(color: Colors.white, child: const IndexHome(),),
-          Container(color: Colors.white),
+          Container(color: Colors.white, child: FormValues(),),
           Container(color: Colors.white),
           Container(color: Colors.white, child: MapSample(),),
           Container(color: Colors.white, child: const LoginPage(),),
